@@ -1,0 +1,39 @@
+# # CommerceEventData
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**timestamp_unixtime_ms** | **int** |  | [optional] 
+**event_id** | **int** |  | [optional] 
+**source_message_id** | **string** |  | [optional] 
+**session_id** | **int** |  | [optional] 
+**session_uuid** | **string** |  | [optional] 
+**session_start_unixtime_ms** | **int** |  | [optional] 
+**event_start_unixtime_ms** | **int** |  | [optional] 
+**custom_attributes** | **map[string,string]** |  | [optional] 
+**location** | [**\OpenAPI\Client\Model\GeoLocation**](GeoLocation.md) |  | [optional] 
+**device_current_state** | [**\OpenAPI\Client\Model\DeviceCurrentState**](DeviceCurrentState.md) |  | [optional] 
+**is_goal_defined** | **bool** |  | [optional] 
+**lifetime_value_change** | **bool** |  | [optional] 
+**lifetime_value_attribute_name** | **string** |  | [optional] 
+**data_connection_type** | **string** |  | [optional] 
+**event_num** | **int** |  | [optional] 
+**view_controller** | **string** |  | [optional] 
+**is_main_thread** | **bool** |  | [optional] 
+**canonical_name** | **string** |  | [optional] 
+**event_system_notification_info** | [**\OpenAPI\Client\Model\EventSystemNotificationInfo**](EventSystemNotificationInfo.md) |  | [optional] 
+**product_action** | [**\OpenAPI\Client\Model\ProductAction**](ProductAction.md) |  | [optional] 
+**promotion_action** | [**\OpenAPI\Client\Model\PromotionAction**](PromotionAction.md) |  | [optional] 
+**product_impressions** | [**\OpenAPI\Client\Model\ProductImpression[]**](ProductImpression.md) |  | [optional] 
+**shopping_cart** | [**\OpenAPI\Client\Model\ShoppingCart**](ShoppingCart.md) |  | [optional] 
+**currency_code** | **string** |  | [optional] 
+**screen_name** | **string** |  | [optional] 
+**is_non_interactive** | **bool** |  | [optional] 
+**event_name** | **string** |  | [optional] 
+**custom_event_type** | **string** |  | [optional] 
+**custom_flags** | **map[string,string]** |  | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
+
