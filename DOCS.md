@@ -1,6 +1,6 @@
 # Documenation
  
-This package is created using [OpenAPI Generator](https://openapi-generator.tech), according to the configuration defined in `mparticle.oas.yaml`.
+This package was created with [OpenAPI Generator](https://openapi-generator.tech) using the  configuration defined in `mparticle.oas.yaml`.
 
 
 To install the OpenAPI Generator CLI
